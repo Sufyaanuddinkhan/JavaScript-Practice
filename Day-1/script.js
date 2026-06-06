@@ -269,11 +269,26 @@
 // console.log("In " + current_year + ", you are " + age + " years old" )
 
 // PROBLEM 23
-let a = 10
-let b = 20
+// let a = 10
+// let b = 20
 
-a += 10
-console.log("Value of a is - " + a)
+// a += 10
+// console.log("Value of a is - " + a)
 
-b -= 10
-console.log("Value of b is - " + b)
+// b -= 10
+// console.log("Value of b is - " + b)
+
+// PROBLEM 24
+let num = 456;
+
+let first = Math.floor(num / 100);
+
+let remaining = num % 100;
+
+let second = Math.floor(remaining / 10);
+
+let third = remaining % 10;
+
+let sum = first + second + third;
+
+console.log(sum);
