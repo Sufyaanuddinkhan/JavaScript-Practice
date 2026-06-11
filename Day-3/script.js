@@ -1,7 +1,6 @@
 // PROBLEM 1
 // let num = -5
 
-
 // if (num < 0) {
 //     console.log("This is a negative number")
 // } else {
@@ -243,3 +242,134 @@
 // }
 
 // PROBLEM 17
+// let num = 15
+
+// if (num % 3 == 0 && num % 5 == 0) {
+//     console.log("FizzBuzz")
+// } else if (num % 3 == 0) {
+//     console.log("Fizz")
+// } else if (num % 5 == 0) {
+//     console.log("Buzz")
+// } else {
+//     console.log(num)
+// }
+
+// PROBLEM 18
+// let age = prompt("Enter your Age: ")
+
+// if (age >= 18) {
+//     alert("You are eligible to vote")
+// } else {
+//     alert("You can't vote")
+// }
+
+// PROBLEM 19
+// let num1 = prompt("Enter the first number: ")
+// let num2 = prompt("Enter the second number: ")
+
+// alert("1 - Additon \n 2 - Subtraction \n 3 - Multiplication \n 4 - Quotient \n")
+// let selecOption = prompt("Select the Operation you want to perform: ")
+
+// switch (selecOption) {
+//     case "1":
+//         add = num1 + num2
+//         alert(add)
+//         break
+//     case "2":
+//         sub = num2 - num1
+//         alert(sub)
+//         break
+//     case "3":
+//         prod = num1 * num2
+//         alert(prod)
+//         break
+//     case "4":
+//         div = num2 / num1
+//         alert(div)
+//         break
+//     default:
+//         alert("Wrong option selected")
+// }
+
+// PROBLEM 20
+// let secretUserNumber = prompt("Guess the Number")
+// let secretNumber = 10
+
+// if (secretUserNumber == secretNumber) {
+//     alert("CONGRATULATIONS!!!")
+// } else if (secretNumber < secretUserNumber) {
+//     alert("TOO HIGH!!")
+// } else if (secretNumber > secretUserNumber) {
+//     alert("TOO LOW!!")
+// }
+
+// PROBLEM 21
+// let str = "Amazing"
+
+// if ((str[0] === "A" || str[0] === "a") && str.length > 5) {
+//     console.log("Golden String")
+// } else {
+//     console.log("Not Golden")
+// }
+
+// PROBLEM 22
+// let num1 = 45;
+// let num2 = 67;
+// let num3 = 52;
+
+// if (num1 > num2 && num2 > num3) {
+//     console.log("num1 is greatest");
+// } else if (num2 > num1 && num2 > num3) {
+//     console.log("num2 is greatest");
+// } else {
+//     console.log("num3 is greatest");
+// }
+
+// PROBLEM 23
+// let quarter = 12
+
+// switch (quarter) {
+//     case 1:
+//     case 2:
+//     case 3:
+//         console.log("Quarter 1")
+//         break
+//     case 4:
+//     case 5:
+//     case 6:
+//         console.log("Quarter 2")
+//         break
+//     case 7:
+//     case 8:
+//     case 9:
+//         console.log("Quarter 3")
+//         break
+//     case 10:
+//     case 11:
+//     case 12:
+//         console.log("Quarter 4")
+//         break
+//     default:
+//         console.log("Wrong Number")
+// }
+
+// PROBLEM 24
+// let userNumber = prompt("Enter a number: ")
+
+// if (userNumber % 10 == 0) {
+//     alert("GOOD!!")
+// } else {
+//     alert("BAD!!")
+// }
+
+// PROBLEM 25
+// let num = 35
+
+// if (num % 7 == 0 && num % 2 == 0) {
+//     console.log("Specail Number")
+// } else if (num % 7 == 0 && num % 2 == 1) {
+//     console.log("Lucky Number")
+// } else {
+//     console.log("Regular Number")
+// }
+
