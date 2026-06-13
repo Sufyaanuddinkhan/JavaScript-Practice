@@ -384,5 +384,298 @@
 
 // console.log(arr2)
 
-// section 3
+// section 7
 // Q1
+// let arr1 = [1, 2, 3]
+// let arr2 = "hello"
+// let arr3 = 123
+// let arr4 = { name: "John" }
+
+// console.log(Array.isArray(arr1))
+// console.log(Array.isArray(arr2))
+// console.log(Array.isArray(arr3))
+// console.log(Array.isArray(arr4))
+
+// Q2
+// let data = [1, 2, 3]
+// let data = "hello"
+// let x = data.length
+
+// if (Array.isArray(data)) {
+//     console.log(`It's an array with ${x} Elements`)
+// } else {
+//     console.log("Not an Array")
+// }
+
+// section 8
+// Q1
+// let matrix = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ]
+
+// console.log(matrix[0][2])
+// console.log(matrix[2][0])
+// console.log(matrix[1][1])
+
+// matrix[1][1] = 50
+
+// console.log(matrix)
+
+// Q2
+// let seats = [
+//     ["Alice", "Bob", "Charlie"],
+//     ["David", "Eve", "Frank"]
+// ]
+
+// console.log(seats[0][1])
+// console.log(seats[1][2])
+
+// let temp = seats[0][0]
+// seats[0][0] = seats[1][2]
+// seats[1][2] = temp
+
+// console.log(seats)
+
+// section 9
+// Q1
+// let grades = [
+//     ["John", 85, 90, 88],
+//     ["Sarah", 92, 88, 80],
+//     ["Mike", 78, 85, 80]
+// ]
+
+// console.log(grades[0][2])
+// console.log(grades[1][1])
+
+// sum = grades[2][1] + grades[2][2] + grades[2][3]
+
+// console.log(sum)
+
+// Q2
+// let game = [
+//     ["X", "O", "X"],
+//     ["O", "X", "O"],
+//     ["X", "X", "X"]
+// ]
+
+// console.log(game[0][0])
+// console.log(game[1][1])
+// console.log(game[2][2] = "O")
+
+// console.log(game)
+
+// section 10
+// Q1
+// let items = [10, 20, 30, 40, 50]
+
+// console.log(items.length)
+
+// items.length = 3
+
+// console.log(items)
+
+// console.log(items[4])
+
+// Q2
+// let numbers = [1, 2, 3]
+
+// numbers[10] = 99
+
+// console.log(numbers)
+// console.log(numbers.length)
+// console.log(numbers[5])
+
+// section 11
+// Q1
+// let words = [" hello ", " WORLD ", " JavaScript "]
+
+// console.log(words)
+
+// word1 = words[0].trim()
+// word2 = words[1].trim()
+// word3 = words[2].trim()
+
+// let newarr = [word1, word2, word3]
+
+// console.log(newarr)
+// console.log(newarr.sort())
+// console.log(newarr.join(" "))
+
+// Q2
+// let morningTasks = ["Exercise", "Breakfast", "Study"]
+// let eveningTasks = ["Dinner", "Reading", "Sleep"]
+
+// fullSchedule = morningTasks.concat(eveningTasks)
+// console.log(fullSchedule)
+
+// fullSchedule.splice(3, 0, "Lunch")
+// console.log(fullSchedule)
+
+// fullSchedule.sort()
+// console.log(fullSchedule)
+
+// section 12
+// Q1
+// let orignal = [1, 2, 3, 4, 5]
+// let reference = orignal
+
+// let copy = orignal.slice()
+
+// reference[0] = 99
+// copy[0] = 88
+
+// console.log(orignal)
+// console.log(reference)
+// console.log(copy)
+
+// Q2
+// let colors = ["red", "green", "blue"]
+
+// let palette1 = colors
+// let palette2 = colors
+
+// palette1.push("yellow")
+
+// console.log(colors)
+// console.log(palette1)
+// console.log(palette2)
+
+// section 13
+// Q1
+// let numbers = [10, 20, 30, 40, 50]
+
+// firstElement = numbers.shift()
+// numbers.push(firstElement)
+// console.log(numbers)
+
+// secondElement = numbers.shift()
+// numbers.push(secondElement)
+// console.log(numbers)
+
+// Q2
+// let items = ["apple", "banana", "cherry", "date", "banana"]
+
+// let indexBanana = items.indexOf("banana")
+
+// items.splice(indexBanana, 1)
+
+// console.log(items)
+
+// console.log(items.includes("banana"))
+
+// section 14
+// Q1
+// let data = [5, 10, 15, 20, 25]
+
+// let index = 0
+
+// if (index < data.length) {
+//     console.log(data[index])
+// } else {
+//     console.log("Index Out of Bounds")
+// }
+
+// Q2
+// let input = [1, 2, 3]
+// let input = "hello"
+
+// isArray = Array.isArray(input)
+
+// if (isArray && input.length > 0) {
+//     console.log(input[0])
+// } else {
+//     console.log("Not an Array")
+// }
+
+// section 15
+// Q1
+// let cart = [];
+
+// cart.push("Laptop");
+// cart.push("Mouse");
+// cart.push("Keyboard");
+
+// console.log(cart.length)
+
+// cart.pop()
+
+// console.log(cart.join(","))
+
+// Q2
+// let highScores = [150, 200, 180, 220, 190]
+
+// highScores.sort().reverse()
+
+// console.log(highScores)
+
+// console.log(highScores[0])
+
+// console.log("Top 3 Scores: " + highScores.slice(0, 3).join("|"))
+
+// section 16
+// Q1
+// let allScores = [85, 92, 78, 95, 88, 73, 90]
+
+// let copiedArray = allScores.slice()
+
+// copiedArray.sort()
+// console.log(copiedArray)
+
+// copiedArray.shift()
+// console.log(copiedArray)
+
+// copiedArray.pop()
+// console.log(copiedArray)
+
+// let sum = 0
+
+// for (let score of copiedArray) {
+//     sum += score
+// }
+
+// let average = sum / copiedArray.length
+
+// console.log(average)
+
+// Q2
+// let tasks = ["Task1", "Task2", "Task3", "Task4"];
+
+// tasks.shift();
+// tasks.push("Task1");
+// console.log(tasks);
+
+// tasks.splice(1, 0, "Task2.5");
+// console.log(tasks);
+
+// tasks.splice(2, 1);
+// console.log(tasks);
+
+// for (let i = 0; i < tasks.length; i++){
+//     console.log(`${i + 1}.${tasks[i]}`)
+// }
+
+// section 17
+// Q1
+// let numbers = [1, 10, 2, 20, 3, 30]
+
+// let defaultSort = numbers.slice()
+// defaultSort.sort()
+// console.log(defaultSort)
+
+// let numericSort = numbers.slice()
+// numericSort.sort((a, b) => a - b)
+// console.log(numericSort)
+
+// Q2
+// let sparse = [1, , , 4, , 6]
+
+// console.log(sparse.length)
+
+// console.log(sparse[2])
+
+// sparse.push(7)
+
+// console.log(sparse)
+// console.log(sparse.length)
